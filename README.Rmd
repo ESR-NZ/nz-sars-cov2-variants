@@ -20,7 +20,7 @@ and not a randomised sample of all positive cases.
 
 ## Example
 
-A brief example of how the data might be used
+A brief example of how the data might be used, using the R language.
 
 ```{r plot, message=FALSE, warning=FALSE}
 library(lubridate)
