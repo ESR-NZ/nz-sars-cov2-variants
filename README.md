@@ -24,7 +24,7 @@ voc_pal <-   c(`Delta` = "#3182bd",
                `BA.2` = "#fd8d3c", 
                `BA.4` = "#B14B02",
                `BA.5` = "#FD3A6B",
-               `BA.2.12.1` = "#fecc5c"
+               `BA.2.75` = "#fecc5c"
 )
 
 
