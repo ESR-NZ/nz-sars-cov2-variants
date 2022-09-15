@@ -1,3 +1,8 @@
+## 16/09/2022
+
+* added BA.4.6 to all datasaets
+* Values for BA.4 are all BA.4 excluding this specific lineage
+
 ## 22/7/2022
 
 * added BA.2.75 to both datasets.
