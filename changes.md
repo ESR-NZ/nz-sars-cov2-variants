@@ -1,3 +1,9 @@
+## 07/10/2022 
+
+* added `data/all_variant_counts.csv` file
+* community and border cases files will no longer be updated as these classes of
+case can no longer be reliably distinguised.
+
 ## 16/09/2022
 
 * added BA.4.6 to all datasaets

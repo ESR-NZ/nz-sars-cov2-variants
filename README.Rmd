@@ -10,13 +10,17 @@ knitr::opts_chunk$set(
 
 # Prevelence of SARS-CoV-2 Variants of Concern in Aoteoroa New Zealand
 
-The `data/` directory contains two csv files, `community_variant_counts.csv` and 
-`border_variant_counts.csv`. Each of these files contains a rolling 7-day average 
+The `data/` directory contains three csv files, `community_variant_counts.csv` and 
+`border_variant_counts.csv` and `all_variant_counts.csv`. Each of these files contains a rolling 7-day average 
 for the number of genomes from selected SARS-CoV2-2 lineages or variants of 
-concern sequenced by ESR for community-acquired and border-associated cases respectively
+concern sequenced by ESR. 
 
-This data is derived from all cases referred to to ESR for sequencing, 
-and not a randomised sample of all positive cases. 
+With the end of the Covid-19 Protection Framework it is no longer possible to
+reliably distinguish border- and community-associated cases. For this reason, 
+the community and border cases will no longer be updated. The `all_variant_counts.csv`
+file contains data on all samples sequenced by ESR since the August 2021 Delta outbreak.
+
+
 
 ## Example
 
@@ -28,7 +32,7 @@ library(tidyr)
 library(ggplot2)
 
 
-voc <- read.csv("data/community_variant_counts.csv")
+voc <- read.csv("data/all_variant_counts.csv")
 voc$report_date <- ymd(voc$report_date)
 tidy_voc <- pivot_longer(voc, !report_date, names_to = "variant", values_to = "n_genomes")
 
