@@ -2,7 +2,7 @@
 # Prevelence of SARS-CoV-2 Variants of Concern in Aoteoroa New Zealand
 
 The `data/` directory contains three csv files,
-`community_variant_counts.csv` and `border_variant_counts.csv` and
+`community_variant_counts.csv`. `border_variant_counts.csv` and
 `all_variant_counts.csv`. Each of these files contains a rolling 7-day
 average for the number of genomes from selected SARS-CoV2-2 lineages or
 variants of concern sequenced by ESR.
