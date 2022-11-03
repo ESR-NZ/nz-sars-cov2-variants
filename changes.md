@@ -1,3 +1,8 @@
+## 03/11/2022
+
+* Added BQ.1.1 to list of tracked variants
+* Values for BA.5 now exclude this lineage and its descendants
+
 ## 07/10/2022 
 
 * added `data/all_variant_counts.csv` file
