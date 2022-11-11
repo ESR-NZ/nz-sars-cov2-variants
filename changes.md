@@ -1,3 +1,8 @@
+## 11/11/2022
+
+* Added XBB (including all descendant lineages) to list of tracked variants
+* Prior to this change most XBB genomes were identified as BA.2 (reflecting `pangolin` designation)
+
 ## 03/11/2022
 
 * Added BQ.1.1 to list of tracked variants
