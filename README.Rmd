@@ -37,7 +37,7 @@ voc$report_date <- ymd(voc$report_date)
 tidy_voc <- pivot_longer(voc, !report_date, names_to = "variant", values_to = "n_genomes")
 
 order_of_arrival <- c("Delta", "BA.1", "BA.2", "BA.5", "BA.4", "BA.2.75", "BA.4.6", 
-"BQ.1.1")
+"BQ.1.1", "XBB")
 
 tidy_voc$variant <- fct_relevel(tidy_voc$variant, order_of_arrival)
 
