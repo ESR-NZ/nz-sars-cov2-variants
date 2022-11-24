@@ -1,3 +1,11 @@
+## 25/11/2022
+
+* Added XBC (including all descendant lineages) to list of tracked variants
+   - prior to change XBC genomes were not assigned to a VOC, so excluded from summary data
+
+* Retired BA.4.6 from the list of tracked variants
+   - genomes identified as BA.4.6 previously will now be included in BA.4
+
 ## 11/11/2022
 
 * Added XBB (including all descendant lineages) to list of tracked variants
