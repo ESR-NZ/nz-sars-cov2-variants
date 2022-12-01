@@ -1,3 +1,9 @@
+## 2/12/2022
+
+* Included RBD levels file, tracking convergence of key spike proteins
+(seee https://virological.org/t/sars-cov-2-evolution-post-omicron/911#post_1)
+
+
 ## 25/11/2022
 
 * Added XBC (including all descendant lineages) to list of tracked variants

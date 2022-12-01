@@ -10,17 +10,21 @@ knitr::opts_chunk$set(
 
 # Prevelence of SARS-CoV-2 Variants of Concern in Aoteoroa New Zealand
 
-The `data/` directory contains three csv files, `community_variant_counts.csv` and 
-`border_variant_counts.csv` and `all_variant_counts.csv`. Each of these files contains a rolling 7-day average 
-for the number of genomes from selected SARS-CoV2-2 lineages or variants of 
-concern sequenced by ESR. 
+The `data/` directory contains four csv files, providing rolling 7-day averages of 
+genomic results. These include two frequently update files.
 
-With the end of the Covid-19 Protection Framework it is no longer possible to
-reliably distinguish border- and community-associated cases. For this reason, 
-the community and border cases will no longer be updated. The `all_variant_counts.csv`
-file contains data on all samples sequenced by ESR since the August 2021 Delta outbreak.
+* `all_variant_counts.csv`, which includes lineage data from all
+samples sequenced by ESR since the August 2021 Delta outbreak.
+* `rbd_levels.csv`, which  includes information on the number of key
+mutations observed in the receptor binding domain of the spike protein. Higher values
+of this measure are [associated with increased immune evasiveness](https://virological.org/t/sars-cov-2-evolution-post-omicron/911).
 
+In addition two files are provided but no longer updated.
 
+`community_variant_counts.csv` and  `border_variant_counts.csv` break down the 
+lineage data into those cases associated with community-acquired infections and 
+border-associated infections respectively. Border and community cases can no
+longer be reliably differentiated, so this data is no longer updated.
 
 ## Example
 
