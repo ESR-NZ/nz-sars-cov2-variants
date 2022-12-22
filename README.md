@@ -1,4 +1,7 @@
 
+:calendar: This repository will not be updated between December 23rd and
+Jan 13th 2023.
+
 # Prevelence of SARS-CoV-2 Variants of Concern in Aoteoroa New Zealand
 
 The `data/` directory contains four csv files, providing rolling 7-day
