@@ -49,8 +49,10 @@ voc_pal <-   c(`Delta` = "#3182bd",
                `BA.5` = "#FD3A6B",
                `BA.2.75` = "#fecc5c", 
                `BQ.1.1`  = "#5d3cc9", 
+               `CH.1.1` = "#cab2d6",
                `XBB` = "#b6db3a", 
-               `XBC` = "#57badb"
+               `XBC` = "#57badb",
+               `XBF` = "#b148d2"
 )
 
 

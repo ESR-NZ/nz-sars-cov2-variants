@@ -1,3 +1,12 @@
+## 20/01/2023
+
+* Added CH.1.1 (including all descent lineages) to tracked lineages. Prior to this
+change this lineage was included in BA.2.75 (reflecting `pangolin` designation)
+
+* Added XBF (including all descent lineages) to tracked lineages. Prior to this
+change most XBF genomes were  included in BA.2 (reflecting one of the ancestors of this
+recom
+
 ## 2/12/2022
 
 * Included RBD levels file, tracking convergence of key spike proteins
