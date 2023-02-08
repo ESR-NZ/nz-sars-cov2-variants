@@ -9,22 +9,22 @@ knitr::opts_chunk$set(
 ```
 
 
-:calendar: This repository will not be updated between December 23rd and Jan 13th 2023.
 
 # Prevelence of SARS-CoV-2 Variants of Concern in Aoteoroa New Zealand
 
-The `data/` directory contains four csv files, providing rolling 7-day averages of 
-genomic results. These include two frequently update files.
-
-* `all_variant_counts.csv`, which includes lineage data from all
+The `data/` directory contain `all_variant_counts.csv`, whichincludes lineage data from all
 samples sequenced by ESR since the August 2021 Delta outbreak.
+
+In addition the `data/archived` subdirectory contans no-longer updated files
+
+
 * `rbd_levels.csv`, which  includes information on the number of key
 mutations observed in the receptor binding domain of the spike protein. Higher values
-of this measure are [associated with increased immune evasiveness](https://virological.org/t/sars-cov-2-evolution-post-omicron/911).
+of this measure are [associated with increased immune evasiveness](https://virological.org/t/sars-cov-2-evolution-post-omicron/911). This data was
+part of ESR's reporting in late 2022.
 
-In addition two files are provided but no longer updated.
 
-`community_variant_counts.csv` and  `border_variant_counts.csv` break down the 
+* `community_variant_counts.csv` and  `border_variant_counts.csv` break down the 
 lineage data into those cases associated with community-acquired infections and 
 border-associated infections respectively. Border and community cases can no
 longer be reliably differentiated, so this data is no longer updated.
@@ -44,7 +44,7 @@ voc$report_date <- ymd(voc$report_date)
 tidy_voc <- pivot_longer(voc, !report_date, names_to = "variant", values_to = "n_genomes")
 
 order_of_arrival <- c("Delta", "BA.1", "BA.2", "BA.5", "BA.4", "BA.2.75", 
-"BQ.1.1", "XBB", "XBC")
+"BQ.1.1", "XBB", "XBC", "XBF")
 
 tidy_voc$variant <- fct_relevel(tidy_voc$variant, order_of_arrival)
 
