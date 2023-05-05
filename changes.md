@@ -1,3 +1,30 @@
+## 05/05/2023
+
+* Major chane to list of tracked lineages. 
+   - BQ.1.1, XBF and XBC are no longer tracked separately
+   - XBB is broken down to include XBB.1.5, XBB.1.16 and XBB (i.e. all others)
+   - CH.1.1 is broken to include FK.1.1 and CH.1.1 (i.e all others)
+   
+Genomes are assigned to  category on the basis of the deepest complete match to one 
+of the following Pango lineages
+
+
+```
+Delta =       'B.1.617.2',
+BA.1 =        'B.1.1.529.1'
+BA.2 =        'B.1.1.529.2' 
+BA.3 =        'B.1.1.529.3' 
+BA.5 =        'B.1.1.529.4' 
+BA.4 =        'B.1.1.529.5' 
+BA.2.75 =     'B.1.1.529.2.75' 
+CH.1.1 =      'B.1.1.529.2.75.3.4.1.1.1.1' 
+FK.1.1 =      'B.1.1.529.2.75.3.4.1.1.1.1.17.1.1' 
+XBB =         'XBB' 
+XBB.1.16 =    'XBB.1.16' 
+XBB.1.5 =     'XBB.1.5' 
+Recombinant = 'X'
+```
+
 ## 20/01/2023
 
 * Added CH.1.1 (including all descent lineages) to tracked lineages. Prior to this
