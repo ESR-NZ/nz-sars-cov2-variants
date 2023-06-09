@@ -12,18 +12,24 @@ knitr::opts_chunk$set(
 
 # Prevelence of SARS-CoV-2 Variants of Concern in Aoteoroa New Zealand
 
-The `data/` directory contain `all_variant_counts.csv`, which includes lineage data from all
-samples sequenced by ESR since the August 2021 Delta outbreak.
+The `data/` directory contains a single file,  `all_variant_counts.csv`. This file contains 
+the 7-day rolling average for the number of genomes from a given variant sequenced by 
+ESR. Data in the most recent weeks will be updated as new cases reported in this time 
+are added to the sequencing dataset  Data begins at the start of the August 2021 Delta outbreak. 
+
+It should be noted that the cases contributing to this data are not a random or representative
+sample of all cases. Information on the demographic samplig of cases is provided in
+the June 2023 Covid Genomics Insight report [pdf](https://www.esr.cri.nz/assets/HEALTH-CONTENT/COVID-Genomics-Insights-Dashboard-CGID/CGID_38_Report.pdf).
 
 Changes to the set of lineages tracked in this repository are described in `changes.md`
 
-In addition the `data/archived` subdirectory con tans no-longer updated files
+In addition the `data/archived` subdirectory contians no-longer updated files
 
 
 * `rbd_levels.csv`, which  includes information on the number of key
 mutations observed in the receptor binding domain of the spike protein. Higher values
 of this measure are [associated with increased immune evasiveness](https://virological.org/t/sars-cov-2-evolution-post-omicron/911). This data was
-part of ESR's reporting in late 2022.
+part of ESR's reporting in late 2022 but is no longer useful.
 
 
 * `community_variant_counts.csv` and  `border_variant_counts.csv` break down the 
