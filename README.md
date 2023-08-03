@@ -58,6 +58,7 @@ stack_order <- c("Delta",
                  "BA.5", 
                  "BA.4", 
                  "Recombinant",
+                 "XBC.1.3",
                  "BA.2.75", 
                  "CH.1.1", 
                  "FK.1.1",
@@ -82,7 +83,8 @@ voc_pal <-c(Delta        = "#3182bd",
             XBB          = "#b6db3a",
             XBB.1.5      = "#5CCC34", 
             XBB.1.16     = "#9CC33C",
-            Recombinant  = "#57badb"
+            Recombinant  = "#57badb", 
+            XBC.1.3      = "#9AD6EA"
 )
 
 

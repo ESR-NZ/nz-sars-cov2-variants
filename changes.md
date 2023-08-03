@@ -1,3 +1,8 @@
+## 04/08/2023
+
+* Addictionof XBC.1.3 to tracked lineages
+* This lineage was previously included in the generic "Recombinant" category
+
 ## 05/05/2023
 
 * Major chane to list of tracked lineages. 
