@@ -1,6 +1,11 @@
+## 18/08/2023
+
+* Addition of EG.5 to tracked lineages
+* This lineage was previously reported as part of th parent "XBB" group
+
 ## 04/08/2023
 
-* Addictionof XBC.1.3 to tracked lineages
+* Addiction of XBC.1.3 to tracked lineages
 * This lineage was previously included in the generic "Recombinant" category
 
 ## 05/05/2023

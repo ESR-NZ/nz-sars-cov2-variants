@@ -42,6 +42,8 @@ files
 
 A brief example of how the data might be used, using the R language.
 
+## Since Delta
+
 ``` r
 library(lubridate)
 library(tidyr)
@@ -63,6 +65,7 @@ stack_order <- c("Delta",
                  "XBB", 
                  "XBB.1.5", 
                  "XBB.1.16",
+                 "EG.5",
                  "Recombinant",
                  "XBC.1.3"
 )
@@ -83,6 +86,7 @@ voc_pal <-c(Delta        = "#3182bd",
             XBB          = "#b6db3a",
             XBB.1.5      = "#5CCC34", 
             XBB.1.16     = "#9CC33C",
+            EG.5         = "#599945",
             Recombinant  = "#57badb", 
             XBC.1.3      = "#9AD6EA"
 )
@@ -96,6 +100,19 @@ ggplot(tidy_voc, aes(report_date, n_genomes, fill=variant)) +
 ```
 
 ![](images/plot-1.png)<!-- -->
+
+## Recent
+
+``` r
+library(lubridate)
+recent <-  filter(tidy_voc, report_date >= today() - months(3))
+ggplot(recent, aes(report_date, n_genomes, fill=variant)) + 
+    geom_area(position = 'fill', colour='black', size=0.3) +
+    scale_fill_manual(values=voc_pal)+
+    theme_bw(base_size = 16)
+```
+
+![](images/recent_plot-1.png)<!-- -->
 
 ## License
 
