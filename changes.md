@@ -1,3 +1,9 @@
+## 10/11/2023
+
+* Addition of HK.3 (XBB.1.9.2.5.1.1.3) to tracked lineages. Previously included under EG.5
+* Addition of BA.2.86 (B.1.1.529.2.86) to tracked lineages
+* Adjustment to XBC, with XBC.1.3 not longer tracked seperately and a new XBC group to capture all XBC lineages added.
+
 ## 18/08/2023
 
 * Addition of EG.5 to tracked lineages
