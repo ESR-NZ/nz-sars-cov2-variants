@@ -61,13 +61,13 @@ stack_order <- c("Delta",
                  "BA.4", 
                  "BA.2.75", 
                  "CH.1.1", 
+                 "FK.1.1",
                  "XBB", 
                  "XBB.1.5", 
                  "XBB.1.16",
                  "EG.5",
-                 "HK.3",
                  "Recombinant",
-                 "XBC"
+                 "XBC.1.3"
 )
 
 tidy_voc$variant <- fct_relevel(tidy_voc$variant, stack_order)
@@ -82,14 +82,13 @@ voc_pal <-c(Delta        = "#3182bd",
             BA.5         = "#FD3A6B",
             BA.2.75      = "#fecc5c", 
             CH.1.1       = "#bd0026",
+            FK.1.1       = "#E81634",
             XBB          = "#b6db3a",
             XBB.1.5      = "#5CCC34", 
             XBB.1.16     = "#9CC33C",
             EG.5         = "#599945",
-            HK.3         = "#3e5836",
             Recombinant  = "#57badb", 
-            XBC          = "#9AD6EA"
-            
+            XBC.1.3      = "#9AD6EA"
 )
 
 

@@ -1,14 +1,3 @@
-## 10/11/2023
- 
-* Addition of HK.3 to tracked lineages
-   - This lineage was previously reported as part of th parent "EG.5" group
-   
-* Removal of FK.1.1
-   - This lineage is now very rare and not featured in ESR's reporting
-
-* XBC tracked as a single category (XBC.1.3 removed)
-   - When the prescience of XBC was first noted in August XBC.1.3 was responsible for the majority of sequenced cases. Other XBC lineages are now replacing XBC.1.3, so this category has been broadened to include all XBC lineage. 
-   
 ## 18/08/2023
 
 * Addition of EG.5 to tracked lineages
