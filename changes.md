@@ -1,3 +1,8 @@
+## 22/13/2023
+
+* Additional of JN.1 (B.1.1.529.2.86.1.1) tp tracked lineages (previously included in BA.2.86)
+* Removal of XBB.1.5 and XBB.1.16 (now reported under XBB)
+
 ## 10/11/2023
 
 * Addition of HK.3 (XBB.1.9.2.5.1.1.3) to tracked lineages. Previously included under EG.5
