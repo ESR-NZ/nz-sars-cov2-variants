@@ -69,6 +69,7 @@ stack_order <- c("Delta",
                  "HK.3",
                  "BA.2.86",
                  "JN.1",
+                 "JN.1.4",
                  "Recombinant",
                  "XBC"
 )
@@ -93,6 +94,7 @@ voc_pal <-c(Delta        = "#3182bd",
             HK.3         = "#3e5836",
             BA.2.86      = "#B399D4",
             JN.1         = "#6f4f97",
+            JN.1.4         = "#422f5a",
             Recombinant  = "#57badb", 
             XBC          = "#9AD6EA"
             
@@ -112,10 +114,11 @@ ggplot(tidy_voc, aes(report_date, n_genomes, fill=variant)) +
 
 ``` r
 library(lubridate)
-recent <-  filter(tidy_voc, report_date >= today() - months(3))
+recent <-  filter(tidy_voc, report_date >= today() - months(3), n_genomes > 0)
+recent_pal <- voc_pal[ as.character(unique(recent$variant)) ]
 ggplot(recent, aes(report_date, n_genomes, fill=variant)) + 
     geom_area(position = 'fill', colour='black', size=0.3) +
-    scale_fill_manual(values=voc_pal)+
+    scale_fill_manual(values=recent_pal)+
     theme_bw(base_size = 16)
 ```
 
